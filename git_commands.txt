@@ -1,6 +1,17 @@
+git clone https://github.com/sangeetm903/Test
+
+to view name(origin): git remote -v
 
 
+git add <. or <file name>>
+git commit -m "<commit message>"
 
+change branch:      git checkout <branch name>
 
 new branch and switch:	git checkout -b bra
+merge: git merge <branch_name>
 
+
+merge conflicts:
+    same line 2 changes:
+        select the option
