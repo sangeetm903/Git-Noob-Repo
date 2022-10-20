@@ -2,16 +2,20 @@ git clone https://github.com/sangeetm903/Test
 
 to view name(origin): git remote -v
 
+To stage changes and to commmit:
+                                    git add <. or <file name>>
+                                    git commit -m "<commit message>"
 
-git add <. or <file name>>
-git commit -m "<commit message>"
+change branch               :       git checkout <branch name>
+create and change branch    :       git checkout -b <branch name>
 
-change branch:      git checkout <branch name>
 
-new branch and switch:	git checkout -b bra
-merge: git merge <branch_name>
+new branch and switch       :	    git checkout -b bra
+merge                       :       git merge <branch_name>
 
+
+push into remote            :       git push <origin> <branch name>
 
 merge conflicts:
     same line 2 changes:
-        select the option
+        <select the option>
