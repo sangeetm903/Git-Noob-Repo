@@ -15,6 +15,7 @@ merge                       :       git merge <branch_name>
 
 
 push into remote            :       git push <origin> <branch name>
+push present branch         :       git push
     push conflict           :
         pull from remote            : git pull <origin> <branch name>
         pulls to the present branch : git pull 
